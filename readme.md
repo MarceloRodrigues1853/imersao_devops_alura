@@ -5,7 +5,7 @@
 ![Python version](https://img.shields.io/badge/python-3.10%2B-blue)
 ![Cloud Run](https://img.shields.io/badge/Cloud_Run-Deployed-brightgreen)
 
-Este projeto é uma API desenvolvida com **FastAPI** para gerenciar **alunos, cursos e matrículas** de uma instituição de ensino.
+Este projeto que faz parte da Imersão DevOps da Alura, é uma API desenvolvida com **FastAPI** para gerenciar **alunos, cursos e matrículas** de uma instituição de ensino.
 
 ---
 
@@ -16,20 +16,11 @@ Abaixo estão os registros que comprovam a execução e deploy pessoal do projet
 ### 1️⃣ Autenticação no Google Cloud e ativação de APIs
 ![Autenticação Google Cloud](imgs_ex/imersao_ex1.PNG)
 
-### 2️⃣ Commit e push do projeto para o GitHub
-![Git push e commit](imgs_ex/imersao_ex2.PNG)
+### 2️⃣ Fazendo teste de Restrito na API
+![teste de resgito na API](imgs_ex/imersao_ex2.PNG)
 
 ### 3️⃣ Deploy da API via Cloud Run
 ![Deploy Cloud Run](imgs_ex/imersao_ex3.PNG)
-
----
-
-## 🎥 Demonstração da API
-
-> *Você pode adicionar um gif com a API rodando localmente ou sendo acessada via `/docs`*
-
-![Demonstração da API](imgs_ex/demo.gif)
-
 ---
 
 ## ⚙️ Pré-requisitos
@@ -55,7 +46,7 @@ pip install -r requirements.txt
 
 # Executar aplicação
 uvicorn app:app --reload
-Acesse a documentação interativa: 👉 ![documentção](http://127.0.0.1:8000/docs)
+Acesse a documentação interativa: 👉 http://127.0.0.1:8000/docs
 
 ````
 ---
@@ -105,10 +96,9 @@ imersao-devops-main/
 ├── imgs_ex/
 │   ├── imersao_ex1.PNG
 │   ├── imersao_ex2.PNG
-│   ├── imersao_ex3.PNG
-│   ├── imersao_ex4.PNG
-│   └── demo.gif
-└── README.md
+│   └── imersao_ex3.PNG
+└── README.md 
+
 ````
 ---
 ## 📄 Licença
