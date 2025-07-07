@@ -61,7 +61,7 @@ gcloud run deploy --port=8000
 
 ## 🌐 API publicada
 A API está hospedada via Google Cloud Run: 
-🔗 https://imersao-app-935614443201.southamerica-east1.run.app
+🔗 [imersao-app](https://imersaoo-app-935614443201.southamerica-east1.run.app/docs)
 
 ---
 
